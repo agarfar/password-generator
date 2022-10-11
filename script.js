@@ -42,14 +42,14 @@ function generatePassword() {
 
   while (validUpper === false) {
     includeUpper = prompt("Would you like to use uppercase characters? Type Yes or No.");
-    if (includeUpper === "no" || "No") {
+    if (includeUpper === "no" || includeUpper === "No") {
       // pwCharacters.concat(lowerList);
       validUpper = true;
       pwCharacters = lowerList;
       console.log(pwCharacters);
       
     }
-    else if (includeUpper === "yes" || "Yes") {
+    else if (includeUpper === "yes" || includeUpper ==="Yes") {
       // pwCharacters = pwCharacters.concat(lowerList);
       // pwCharacters = pwCharacters.concat(upperList);
       validUpper = true;
@@ -70,10 +70,10 @@ function generatePassword() {
  
   while (validNumber === false) {
     includeNumber = prompt("Would you like to use numbers? Type Yes or No.");
-    if (includeNumber === "no" || "No") {
+    if (includeNumber === "no" || includeNumber === "No") {
       validNumber = true;
     }
-    else if (includeNumber === "yes" || "Yes") {
+    else if (includeNumber === "yes" || includeNumber === "Yes") {
       pwCharacters = pwCharacters.concat(numberList);
       validNumber = true;
     }
@@ -91,10 +91,10 @@ function generatePassword() {
 
   while (validSpecial === false) {
     var includeSpecial = prompt("Would you like to use special characters? Type Yes or No.");
-    if (includeSpecial === "no" || "No") {
+    if (includeSpecial === "no" || includeSpecial ===  "No") {
       validSpecial = true;
     }
-    else if (includeSpecial === "yes" || "Yes") {
+    else if (includeSpecial === "yes" || includeSpecial === "Yes") {
       pwCharacters = pwCharacters.concat(charList);
       validSpecial = true;
     }

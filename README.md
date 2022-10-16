@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-1. Access the website at the provided URL: 
+1. Access the website at the provided URL: https://agarfar.github.io/password-generator/
 
 2. Click on "Generate Password": 
 

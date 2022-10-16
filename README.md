@@ -1,8 +1,8 @@
-# <Random Password >
+# <Password Generator>
 
 ## Description
 
-I wrote this JavaScript fucntion to generate a random password based on a series of user prompts. I learned how to incorporate alerts, confirms, and prompts into my HTML applications through JavaScript, as well as how to modify arrays and strings through a variety of methods and functions. 
+I wrote a JavaScript function to generate a random password based on a series of user prompts. I learned how to incorporate alerts, confirms, and prompts into my HTML applications through JavaScript, as well as how to modify arrays and strings through a variety of methods and functions. 
 
 ## Installation
 

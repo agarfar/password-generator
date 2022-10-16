@@ -71,7 +71,7 @@ header {
   display: block;
   clear: both;
 }
-
+/* button to generate password */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -96,7 +96,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/*box where password is displayed */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,7 +117,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
+/* responsive media properties */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
